@@ -7,11 +7,10 @@ todo Demo
 重点是node经常用的是匿名函数写。这让我这类写惯了java的人很不习惯。
 
 估计还有人会郁闷于export和module.export吧？
-关于export和module.export这个问题，看到一篇介绍不错的：
-1.[点击这里阅读该片文章](http://blog.csdn.net/sanjay_f/article/details/44871613)<br />  
+关于export和module.export这个问题，看到一篇介绍不错的：<br /> 1.[点击这里阅读该片文章](http://blog.csdn.net/sanjay_f/article/details/44871613)<br />  
  
 
-而关于node.js的基本语法和类型使用。有下面这篇不错的介绍文字，转载后调整了下一些内容，觉得收获颇多，就贴出来啦。
+而关于node.js的基本语法，有下面这篇不错的介绍文字，转载后调整了下，觉得有收获，就贴出来啦。<br /> 
 2.[地址是 http://blog.csdn.net/sanjay_f/article/details/44888563](http://blog.csdn.net/sanjay_f/article/details/44888563)<br /> 
 
  
@@ -46,19 +45,18 @@ todo Demo
 ###
 一些描述信息
 ----------------------------------- 
-1.数据库是使用ORM的mongoose写的，安装可以参考这篇文章
+*， 1.数据库是使用ORM的mongoose写的，安装可以参考这篇文章
 [ MongoDB介绍及下载与安装]（http://www.cnblogs.com/mecity/archive/2011/06/11/2078527.html）
 <br /> 
 
-2.因为没有界面，所以只有MVC的 Model 和 Controllers.
+*， 2.因为没有界面，所以只有MVC的 Model 和 Controllers.
   不知道我那样些对不对，欢迎在ISSUE那指出错误。或者改完通知下，谢谢。
 
-3.服务器在serves里面，mian主要是处理些主要的业务逻辑 ，other目录主要负责图片的加载请求.
-
+*， 3.服务器在serves里面，mian主要是处理些主要的业务逻辑 ，other目录主要负责图片的加载请求.
  图片的测试链接：http://127.0.0.1:8002/API/file/openImg/8bxswM/head_1428388737819.jpg
  在运行后，在游览器输入这个，就可以显示图片啦.
 
-4.程序是在W7+webStrom下运行的。里面有一个插件GM在生成缩略图是会失败。
+*，4.程序是在W7+webStrom下运行的。里面有一个插件GM在生成缩略图是会失败。
   位置在init/upload.js里面.例如在函数submit_img里面，就有的第57行
 
 
