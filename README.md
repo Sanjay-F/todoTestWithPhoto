@@ -6,13 +6,12 @@ todo Demo
 所以一上来看了那么多本感觉都懵了，书本没介绍变量类型啊，各种if,switch之类的语法的。<br>
 重点是node经常用的是匿名函数写。这让我这类写惯了java的人很不习惯。<br>
 
+关于node.js的基本语法，有下面这篇不错的介绍文字，转载后调整了下，觉得有收获，就贴出来啦。<br /> 
+2.[地址是 http://blog.csdn.net/sanjay_f/article/details/44888563](http://blog.csdn.net/sanjay_f/article/details/44888563)<br /> 
+
 估计还有人会郁闷于export和module.export吧？
 关于export和module.export这个问题，看到一篇介绍不错的：<br /> 1.[点击这里阅读该片文章](http://blog.csdn.net/sanjay_f/article/details/44871613)<br />  
  
-
-而关于node.js的基本语法，有下面这篇不错的介绍文字，转载后调整了下，觉得有收获，就贴出来啦。<br /> 
-2.[地址是 http://blog.csdn.net/sanjay_f/article/details/44888563](http://blog.csdn.net/sanjay_f/article/details/44888563)<br /> 
-
  
 是的，看了那么多，终于有能力写点东东了。
 所以就憋着写了这的todo demo项目，完全的后端，没有界面。 因为一开始就是打算只是做安卓的后台而已。
