@@ -45,18 +45,18 @@ todo Demo
 ###
 一些描述信息
 ----------------------------------- 
-* 1.数据库是使用ORM的mongoose写的，安装可以参考这篇文章
+* *1.*数据库是使用ORM的mongoose写的，安装可以参考这篇文章
 [ MongoDB介绍及下载与安装]（http://www.cnblogs.com/mecity/archive/2011/06/11/2078527.html）
 <br /> 
 
-* 2.因为没有界面，所以只有MVC的 Model 和 Controllers.
+* *2.*因为没有界面，所以只有MVC的 Model 和 Controllers.
   不知道我那样些对不对，欢迎在ISSUE那指出错误。或者改完通知下，谢谢。
 
-* 3.服务器在serves里面，mian主要是处理些主要的业务逻辑 ，other目录主要负责图片的加载请求.
+* *3.*服务器在serves里面，mian主要是处理些主要的业务逻辑 ，other目录主要负责图片的加载请求.
  图片的测试链接：http://127.0.0.1:8002/API/file/openImg/8bxswM/head_1428388737819.jpg
  在运行后，在游览器输入这个，就可以显示图片啦.
 
-* 4.程序是在W7+webStrom下运行的。里面有一个插件GM在生成缩略图是会失败。
+* *4.*程序是在W7+webStrom下运行的。里面有一个插件GM在生成缩略图是会失败。
   位置在init/upload.js里面.例如在函数submit_img里面，就有的第57行
 
 
