@@ -7,10 +7,10 @@ todo Demo
 重点是node经常用的是匿名函数写。这让我这类写惯了java的人很不习惯。<br>
 
 关于node.js的基本语法，有下面这篇不错的介绍文字，转载后调整了下，觉得有收获，就贴出来啦。<br /> 
-2.[地址是 http://blog.csdn.net/sanjay_f/article/details/44888563](http://blog.csdn.net/sanjay_f/article/details/44888563)<br /> 
+**1.**[地址是 http://blog.csdn.net/sanjay_f/article/details/44888563](http://blog.csdn.net/sanjay_f/article/details/44888563)<br /> 
 
 估计还有人会郁闷于export和module.export吧？
-关于export和module.export这个问题，看到一篇介绍不错的：<br /> 1.[点击这里阅读该片文章](http://blog.csdn.net/sanjay_f/article/details/44871613)<br />  
+关于export和module.export这个问题，看到一篇介绍不错的：<br /> **2.**[点击这里阅读该片文章](http://blog.csdn.net/sanjay_f/article/details/44871613)<br />  
  
  
 是的，看了那么多，终于有能力写点东东了。
@@ -56,7 +56,7 @@ todo Demo
   http://127.0.0.1:8002/API/file/openImg/8bxswM/head_1428388737819.jpg<br>
  在运行后，在游览器输入这个，就可以显示图片啦.
 
-* **4.** 程序是在W7+webStrom下运行的。里面有一个插件GM在生成缩略图是会失败。
+* **4.** 程序是在W7+webStrom下运行的。里面有一个插件GM在生成缩略图是会失败。<br>
   位置在init/upload.js里面.例如在函数submit_img里面，就有的第57行
 
 
