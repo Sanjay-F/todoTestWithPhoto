@@ -1,0 +1,13 @@
+{
+  "other": {
+	"path": "/serves/other/index",
+	"port": 8002,
+	"protocol" : "http"
+  },
+	"serves": {
+		"path": "serves/main/index",
+		"port": 8001,
+		"protocol" : "http"
+	}
+
+}
