@@ -42,12 +42,13 @@ exports.path = {
     'PATH_ROUTES_ROUTE':DIRNAME+'/serves/main/routes/router',
 
 
+    REDIS : require(INIT + 'redis'),					//加载：redis
 
     'PATH_LOG': '/home/ranran/.forever/',				//log路径
     'SAVE_PATH_LOG': '/mnt/app_log/',					//保存log路径
     'SHORT_ID': INIT + 'shortId',					//加载：
-    'PATH_INIT_UPLOAD':INIT+'upload'
-    // REDIS: require(INIT + 'redis'),					//加载：redis
+    'PATH_INIT_UPLOAD':INIT+'upload',
+    'PATH_INIT_REDIS': INIT + 'redis'					//加载：redis
 
 };
 
@@ -77,4 +78,11 @@ exports.MODELS={
     'user_model':'user_model',
     'plan_model':'plan_model'
 
+};
+
+
+exports.REDIS={
+
+    'user_info':'userArr',
+    'plan_info':'planArr'
 };
