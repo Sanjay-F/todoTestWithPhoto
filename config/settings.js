@@ -15,14 +15,16 @@ exports.redis = {
 };
 //百度推送相关设置
 exports.baidupush = {
-	id	:  '4579019',
-	key	:  'PnFupOThtRCDpS6KErvwFpwz',
-	server	: 'uX7tf0oGGyd4bfKBDkKz2HSIaPdDWzcG'
+	//下面这几个自己申请下百度推送把
+	id	:  '',
+	key	:  '',
+	server	: ''
 };
 //邮箱相关设置
 exports.email = {
 	host		: 'smtp.qq.com',
 	port		: '465',
-	user		: 'ranran@day30.cn',
-	pass		: '7885117kobe'
+	user		: '',
+	pass		: ''
 };
+
