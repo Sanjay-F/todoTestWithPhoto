@@ -34,5 +34,9 @@ module.exports = function(cmd,req,writejson){
 
         case listens.user.logout:
             mUser.user_logout(userId);
+            break;
+        case  listens.user.savePushId:
+            var regId=req.param('registerId');
+            mUser.saveUserJpushRegeistId(regId,userId)
     }
 };

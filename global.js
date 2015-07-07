@@ -11,13 +11,17 @@ var DIRNAME = __dirname,
     CONFIG = path.join(DIRNAME,'./config/'),	//config路径
     BASE_URL = 'http://127.0.0.1';		//url路径
 
-exports.listers= {
+
+
+
+    exports.listers= {
     //1、用户模块
     'user': {
         'signUp': 1,	//用户注册
         'login': 2,	//用户登陆
         'logout': 3,	//用户退出
-        'resetPassword': 8	//用户重置密码发送邮件
+        'resetPassword': 8,	//用户重置密码发送邮件
+        'savePushId':4
     },
     //2、尝试模块
     'plan': {
@@ -43,6 +47,7 @@ exports.path = {
 
 
     REDIS : require(INIT + 'redis'),					//加载：redis
+    PUSH : require(INIT + 'jpush'),
 
     'PATH_LOG': '/home/ranran/.forever/',				//log路径
     'SAVE_PATH_LOG': '/mnt/app_log/',					//保存log路径
@@ -84,5 +89,6 @@ exports.MODELS={
 exports.REDIS={
 
     'user_info':'userArr',
-    'plan_info':'planArr'
+    'plan_info':'planArr',
+    'user_pushId':'user_pushId_arr'
 };

@@ -8,6 +8,12 @@ exports.db = {
 	maxConnLimit	: 100
 };
 
+//极光推送相关设置
+exports.jpush = {
+	key	:  '',
+	server	: ''
+};
+
 //缓存相关设置
 exports.redis = {
 	host	: '127.0.0.1',

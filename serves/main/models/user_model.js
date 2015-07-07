@@ -8,9 +8,11 @@ var upload = require(Global.path.PATH_INIT_UPLOAD);
 var redis = new  Global.path.REDIS();
 var actionResult = require(Global.path.PATH_PUSHVO_SYS_actionResult);
 var shortId = require(Global.path.SHORT_ID);
+var push = new Global.path.PUSH();
 //user models
 //HG
 module.exports = function (token, callback) {
+
 
 
     this.user_reg = function (email, password, headImage) {
@@ -143,4 +145,12 @@ module.exports = function (token, callback) {
     }
 
 
+    this.saveUserJpushRegeistId=function(registerID,userId){
+
+        console.log('regId='+registerID);
+        redis.hset(Global.REDIS.user_pushId, userId, registerID);
+        callback(actionResult(0));
+        push.push_follow(userId,userId,1);
+
+    }
 };
