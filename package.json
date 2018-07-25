@@ -19,7 +19,7 @@
     "method-override": "2.3.0",
     "serve-static": "1.7.1",
     "connect-multiparty": "1.2.5",
-    "moment": "2.8.3",
+    "moment": "2.19.3",
     "gm": "1.17.0",
     "MD5": "1.2.1",
     "jpush-sdk": "*",
